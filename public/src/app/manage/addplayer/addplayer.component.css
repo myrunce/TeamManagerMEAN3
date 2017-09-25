@@ -1,0 +1,11 @@
+.red{
+  color: red;
+}
+
+#container{
+  margin-top: 70px;
+  border: 1px solid black;
+  height: auto;
+  min-height: 300px;
+  padding: 30px;
+}

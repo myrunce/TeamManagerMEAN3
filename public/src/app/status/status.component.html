@@ -1,0 +1,8 @@
+<div id="container">
+    <h1>Player Status - Game {{ gameNum }}</h1>
+    <br>
+    <div class="links">
+      <a [routerLink]="['game', '1']" (click)='setGameNum(1)'>Game 1</a> | <a [routerLink]="['game', '2']" (click)='setGameNum(2)'>Game 2</a> | <a [routerLink]="['game', '3']" (click)='setGameNum(3)'>Game 3</a>
+     </div>
+  <router-outlet></router-outlet>
+</div>
